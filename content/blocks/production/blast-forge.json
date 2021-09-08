@@ -1,0 +1,29 @@
+{
+	"type": "GenericSmelter",
+	"name": "Blast Forge",
+	"description": "Mixes blast compound, plastanium and graphite to make a blast resistant compound somehow",
+	"craftTime": 120,
+	"craftEffect": "smelt",
+	"updateEffect": "none",
+	"size": 3,
+	"health": 220,
+	"consumes": {
+		"power": 1,
+		"items": {
+			"items": [
+				{"item": "blast-compound", "amount": 2},
+				{"item": "plastanium", "amount": 3},
+				{"item": "graphite", "amount": 5}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 30},
+		{"item": "plastanium", "amount": 45},
+		{"item": "graphite", "amount": 20},
+		{"item": "metaglass", "amount": 25}
+	],
+	"outputItem": {"item": "blast-scale", "amount": 1},
+	"category": "crafting",
+	"research": "plastanium-compressor"
+}

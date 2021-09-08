@@ -1,0 +1,41 @@
+{
+	"type": "legs",
+	"name": "Cruiser",
+	"description": "A big unit with two shrapnel weapons.",
+    "speed": 0.45,
+    "drag": 0.4,
+    "hitSize": 15,
+    "rotateSpeed": 3,
+    "health": 3500,
+    "legCount": 6,
+    "legLength": 13,
+    "legTrns": 0.8,
+    "legMoveSpace": 1.4,
+    "legBaseOffset": 2,
+    "hovering": true,
+    "armor": 5,
+    "buildSpeed": 0.75,
+    "allowLegStep": true,
+    "visualElevation": 0.3,
+    "weapons": [
+    	{
+    		"name": "thorium-fuse",
+    		"reload": 30,
+    		"recoil": 1,
+    		"x": 4,
+    		"y": 0,
+    		"shootY": 2,
+    		"ejectEffect": "none",
+    		"shootSound": "shotgun",
+    		"bullet": {
+    			"type": "ShrapnelBulletType",
+    			"length": 34,
+    			"width": 12,
+    			"damage": 55,
+    			"ammoMultiplier": 8,
+    			"toColor": "7AD3FF",
+    		}
+    	}
+    ],
+    "research": "boat",
+}

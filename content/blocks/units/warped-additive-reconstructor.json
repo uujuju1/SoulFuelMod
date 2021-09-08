@@ -1,0 +1,27 @@
+{
+	"type": "Reconstructor",
+	"name": "Warped Adder",
+	"description": "Re builds 1st tier into 2nd tier",
+	"size": 3,
+	"health": 220,
+	"constructTime": 600,
+	"consumes": {
+		"power": 3,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 40},
+				{"item": "graphite", "amount": 40}
+			]
+		}
+	},
+	"upgrades": [
+		["kayak", "boat"],
+	],
+	"requirements": [
+		{"item": "copper", "amount": 200},
+		{"item": "lead", "amount": 120},
+		{"item": "silicon", "amount": 90}
+	],
+	"category": "units",
+	"research": "warped-factory"
+}

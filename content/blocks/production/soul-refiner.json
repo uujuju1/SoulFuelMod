@@ -1,0 +1,25 @@
+{
+	"localizedName": "Soul Refiner",
+	"description": "Collect the souls of the decayed monolith souls to make soul fuel",
+	"details": "totally not a reference to project unity",
+	"craftTime": 10,
+	"hasPower": true,
+	"hasLiquids": true,
+	"liquidCapacity": 60,
+	"craftEffect": "none",
+	"size": 2,
+	"health": 160,
+	"consumes": {
+		"power": 1,
+		"liquid": {"liquid": "fuel", "amount": 6},
+	},
+	"requirements": [
+		{"items": "silicon", "amount": 30},
+		{"items": "plastanium", "amount": 45},
+		{"items": "graphite", "amount": 20},
+		{"items": "metaglass", "amount": 25}
+	],
+	"outputLiquid": {"liquid": "soul-fuel", "amount": 6},
+	"category": "crafting",
+	"research": "plastanium-compressor"
+}

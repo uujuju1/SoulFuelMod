@@ -1,0 +1,27 @@
+{
+	"type": "UnitFactory",
+	"name": "Warped Factory",
+	"description": "Produces leg units but ships.",
+	"size": 3,
+	"health": 200,
+	"liquidCapacity": 60,
+	"consumes": {"power": 1.2, "liquid": {"liquid": "fuel", "amount": 6}},
+	"plans": [
+		{
+			"unit": "kayak",
+			"time": 1000,
+			"requirements": [
+				{"item": "silicon", "amount": 12},
+				{"item": "blast-scale", "amount": 6},
+				{"item": "carbonite", "amount": 3}
+			]
+		}
+	],
+	"requirements": [
+		{"item": "carbonite", "amount": 25},
+		{"item": "silicon", "amount": 55},
+		{"item": "graphite", "amount": 45}
+	],
+	"category": "units",
+	"research": "ground-factory"
+}

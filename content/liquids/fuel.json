@@ -1,0 +1,11 @@
+{
+	"name": "Fuel",
+	"description": "Fuel for factory lubrification.",
+	"color": "5F9463",
+	"flammability": 1.5,
+	"viscosity": 0.7,
+	"explosiveness": 1.2,
+	"heatCapacity": 0.7,
+	"effect": "tarred",
+	"research": "oil",
+}

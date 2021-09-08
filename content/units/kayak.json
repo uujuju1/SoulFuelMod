@@ -1,0 +1,56 @@
+{
+	"type": "mech",
+	"name": "Kayak",
+	"description": "Shoots Powerful mines that slows down enemies.",
+	"speed": 1.2,
+	"hitSize": 8,
+	"speed": 1,
+    "hitSize": 8,
+    "health": 500,
+    "maxRange": 80,
+    "mechSideSway": 0.25,
+    "range": 40,
+    "weapons": [
+    	{
+    		"name": "kayakBomb",
+    		"mirror": false,
+    		"x": 0,
+    		"y": 0,
+    		"reload": 20,
+    		"ejectEffect": "none",
+    		"shooty": 0,
+    		"bullet": {
+                "type": "FlakBulletType",
+                "sprite": "ugly-fuel-mine-bullet",
+                "drag": 0.002,
+                "collidesGround" : true,
+                "damage": 0,
+                "speed": 4,
+                "lifetime": 20,
+                "height": 14,
+                "width": 14,
+                "frontColor": "69B5DB",
+                "backColor": "5491B0",
+                "fragBullets": 4,
+                "fragBullet": {
+                    "type": "FlakBulletType",
+                    "collidesGround" : true,
+                    "collidesAir" : false,
+                    "damage": 15,
+                    "sprite" : "ugly-fuel-mine-bullet",
+                    "frontColor": "69B5DB",
+                    "backColor": "5491B0",
+                    "spin": 0.2,
+                    "height": 7,
+                    "width": 7,
+                    "lifetime": 600,
+                    "shrinkX": 0.0,
+                    "shrinkY": 0.0,
+                    "speed": 2,
+                    "drag" : 0.04
+                }
+    		}
+    	}
+    ],
+    "research": "crawler",
+}

@@ -1,0 +1,21 @@
+{
+	"type": "legs",
+	"localizedName": "Titanic",
+	"description": "has 2 weapons that shoot electric charged projectiles",
+    "speed": 0.30,
+    "drag": 0.4,
+    "hitSize": 17,
+    "rotateSpeed": 2.5,
+    "maxRange": 200,
+    "legCount": 8,
+    "legLength": 30,
+    "legTrns": 0.8,
+    "legMoveSpace": 1.4,
+    "legBaseOffset": 2,
+    "hovering": true,
+    "armor": 6,
+    "buildSpeed": 0.75,
+    "allowLegStep": true,
+    "visualElevation": 0.5,
+    "research": "cruiser"
+}

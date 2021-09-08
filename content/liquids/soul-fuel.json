@@ -1,0 +1,11 @@
+{
+	"name": "Soul Fuel",
+	"description": "Created with lost souls, can be used to power reconstructors.",
+	"details": "why is it glowing",
+	"color": "5C808E",
+	"lightColor": "f0511d7f",
+	"heatCapacity": 0.7,
+	"viscosity": 0.7,
+	"effect": "tarred",
+	"research": "slag"
+}

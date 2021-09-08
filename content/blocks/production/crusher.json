@@ -1,0 +1,28 @@
+{
+	"localizedName": "Crusher",
+	"description": "crushes graphite and coal into Carbonite.",
+	"size": 2,
+	"health": 160,
+	"craftTime": 60,
+	"hasPower": true,
+	"hasItems": true,
+	"craftEffect": "none",
+	"consumes": {
+		"power": 1,
+		"items": {
+			"items": [
+				{"item": "coal", "amount": 2},
+				{"item": "graphite", "amount": 1}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 30},
+		{"item": "graphite", "amount": 50},
+		{"item": "lead", "amount": 40},
+		{"item": "copper", "amount": 60},
+	],
+	"outputItem": {"item": "carbonite", "amount": 1},
+	"category": "crafting",
+	"research": "coal-centrifuge"
+}

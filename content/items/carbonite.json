@@ -1,0 +1,9 @@
+{
+	"name": "Carbonite",
+	"description": "A combination of graphene and coal.",
+	"details": "This is as flammable as pyratite and i dont know how.",
+    "flammability": 1.4,
+    "explosiveness": 0.4,
+	"research": "coal",
+	"color": "65656A",
+}
